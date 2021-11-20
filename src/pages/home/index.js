@@ -12,20 +12,15 @@ function Home() {
 
     const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = React.useState(false);
 
-    const {transactions} = useTransactions()
-
-    useEffect(() => {
-        console.log(transactions)
-    }, [])
-
     function handleOpenNewTransactionmodal() {
         // TO DO - Implementar a alteracao do state para mostrar modal
-    }
+        setIsNewTransactionModalOpen(true);
+    };
     
     function handleCloseNewTransactionmodal() {
         // TO DO - Implementar a alteracao do state para ocultar modal
-    }
-
+        setIsNewTransactionModalOpen(false);
+    };
 
     return (
         <>

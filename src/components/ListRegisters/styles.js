@@ -35,12 +35,13 @@ export const Container = styled.div`
       
       &.deposit {
         /* TO DO - Implementar cor para entrada conforme variaveis de cores do css */
+        color: var(--green)
         
       }
       
       &.withdraw {
         /* TO DO - Implementar cor para saida conforme variaveis de cores do css */
-
+        color: var(--red)
       }
 
     }

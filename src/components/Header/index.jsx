@@ -4,7 +4,6 @@ import { Container, Content } from './styles';
 
 export function Header({onOpenNewTransactionModal}) {
 
-
   return (
     <Container>
       <Content>       

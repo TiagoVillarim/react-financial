@@ -28,7 +28,6 @@ export function ListRegisters() {
           </thead>
           <tbody>
 
-
             {transactions.map(transaction => {
               return (
                 <tr key={transaction.id}>
@@ -47,7 +46,6 @@ export function ListRegisters() {
           </tbody>
         </table>
       }
-
 
     </Container>
   )
